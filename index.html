@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title></title>
+   
+    
+    <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+    <link rel="stylesheet" type="text/css" href="css/style.css"> 
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+    <title>Document</title>
+</head>
+
+<body>
+	<header>
+		<div class="contacts">
+			<div class="wrap">
+			 <div class="contacts-container">
+				<a class="location" href="#">
+				Украина, 49038, г. Днепропетровск, ул. Рогалева, 12б</a>
+				<a class="header-mail" href="#">sssss@vega.com.ua</a>
+				<a class="tel" href="#">(056) 888-777-1; (067) 777-65-31</a>
+			
+
+
+				
+				<div class="lang">
+					<a href="#">UA</a>
+					<a href="#">ENG</a>
+					<a href="#" class="active">RU</a>
+					</div>
+				</div>
+			</div>
+		</div>
+
+<div class="logo-container">
+	<div class="wrap">
+		<h2 >logotype</h2>
+	</div>
+
+</div>
+
+<div class="nav-container">
+	<div class="wrap clearfix">
+		<nav class="menu">
+			<ul class="nav">
+	       <li class="active-page"><a href="#">Главная</a></li>
+	       <li class="catalog"><a href="#">Каталог</a></li>
+	       <li class="projects"><a href="#">Реализованные проеты</a></li>
+	       <li class="about"><a href="#">О нас</a></li>
+	       <li class="nav-contacts"><a href="#">Контакты</a></li>
+
+	     </ul>
+		</nav>
+		<a class="expand-one" href="#">&#9776;</a>
+	</div>
+</div>
+	</header>
+
+<!--  ======block slider======  -->	
+
+<div class="slider-container">
+	<div class="slider"><img src="img/slide1.jpg"></div>
+	<div class="slider"><img src="img/slide2.jpg"></div>
+	<div class="slider"><img src="img/slide3.jpg"></div>
+
+</div>
+
+
+<!--  ======block product======  -->
+
+<div class="product-block">
+<div class="container">
+   <h3>Наша продукция</h3>
+	<div class="slider2">
+		<div class="slide1 slides" width="270"><img src="img/prod1.png" alt=""></div>
+		<div class="slide2 slides"><img src="img/prod2.png" alt=""></div>
+		<div class="slide3 slides active-prod"><img src="img/prod1.png" alt=""></div>
+		<div class="slide4 slides"><img src="img/prod2.png" alt=""></div>
+		<div class="slide5 slides"><img src="img/prod1.png" alt=""></div>
+		<div class="slide6 slides"><img src="img/prod2.png" alt=""></div>
+		<div class="slide7 slides"><img src="img/prod1.png" alt=""></div>
+		<div class="slide8 slides"><img src="img/prod2.png" alt=""></div>
+		<div class="slide9 slides"><img src="img/prod1.png" alt=""></div>
+		<div class="slide10 slides"><img src="img/prod2.png" alt=""></div>
+		<div class="slide11 slides"><img src="img/prod1.png" alt=""></div>
+		<div class="slide12 slides"><img src="img/prod2.png" alt=""></div>
+	</div>
+	</div>
+</div>
+
+
+
+
+
+
+<!-- /* ======block partners====== */ -->
+
+
+<div class="partners-block">	
+<h3>Наши партнеры</h3>
+	<div class="partners-container">
+
+
+		<div class="block block1"><img src="img/aeroflot.png"><p>Электровозостроение</p></div>
+		<div class="block block2"><img src="img/zelezorudnie.png"><p>Криворожский железорудный комбинат </p></div>
+		<div class="block block3"><img src="img/arselor.png"><p>АрселорМеталл Кривой Рог</p></div>
+		<div class="block block4"><img src="img/dtek.png"><p>Павлоградуголь</p></div>
+		<div class="block block5"><img src="img/metinvest.png"><p>Метинвест Холдинг</p></div>
+		<div class="block block6"><img src="img/zap.png"><p>Запорожский железорудный комбинат</p></div>
+	</div>
+	
+</div>
+
+
+
+	<footer>
+	 <div class="footer-container">
+		<a href="#"><img src="img/mail-footer.svg">email@mail.ru</a>
+		<a href="" class="tel-footer"><img src="img/tel-footer.svg">(095) 154 44 11</a>
+		<div class="social">
+		 <a href=""><img src="img/vk.svg"></a>
+		 <a href=""><img src="img/fb.svg"></a>
+		</div>
+		<a href="#" class="call-back" ><img src="img/tel-footer.svg">обратный звонок</a>
+		<a href="#"><img src="img/iworks.svg"></a>
+	 </div>
+	</footer>
+
+
+	<script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+	<!-- <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script> -->
+
+<script type="text/javascript" src="slick/slick.min.js"></script>
+<script src="js/main.js"></script>
+<!-- <script type="text/javascript" src="js/js.js"></script> -->
+ <script type="text/javascript">
+    $(document).ready(function() {
+      $('.slider-container').slick({
+      	dots: true, arrows: false});
+
+       $('.slider2').slick({slidesToShow: 6,
+  slidesToScroll: 4, 
+   responsive: [
+    {
+      breakpoint: 1539,
+      settings: {
+        slidesToShow: 5,
+        slidesToScroll: 2,
+        infinite: true,
+        
+      }
+    },
+	{
+      breakpoint: 1400,
+      settings: {
+        slidesToShow: 4,
+        slidesToScroll: 2,
+        infinite: true,
+        
+      }
+    },
+	{
+      breakpoint: 1139,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 2,
+        infinite: true,
+        
+      }
+    },
+	{
+      breakpoint: 645,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        infinite: true,
+        
+      }
+    },
+	{
+      breakpoint: 389,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        infinite: true,
+		arrows: false,
+		dots: true,
+        
+      }
+    }
+	]
+	});
+      	   
+  });
+  </script>
+</body>
+</html>
